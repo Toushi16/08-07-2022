@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width:28px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+body {
+    background-image: url(https://assets.weforum.org/article/image/responsive_big_webp_JMF96ETfn1kSViVnUou1Z0XIDwWcPpT5mrPc7-ytpAc.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.book-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    height: 30px;
+    gap: 10px;
+}
+
+.book-form input {
+    box-shadow: inset 0.5px 0.5px;
+    padding: 5px;
+}
+
+.book-form input:focus {
+    outline: none;
+}
+
+.book-form button {
+    padding: 3px;
+}
+
+.book-list {
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: scroll;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 850px;
+    width: 1024px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0.5px 0.5px 0.5px;
+}
+
